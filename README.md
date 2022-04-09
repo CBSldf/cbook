@@ -1,37 +1,15 @@
 # cbook
+####介绍
+cbook允许您在无后端的情况下整一个html手册，仅支持md
 
-#### 介绍
-计划做成像手册一样的效果
+#### 0.1使用方法
+你也许看到了0.1这个文件夹，里面有index.html和min.js，index.html仅供示范
+先添加一个id名为content的div，请在html页引入min.js(在id为content的div下面引入)
+然后就大功告成了
+当然cbook仅适合放在服务器上，因为在自己的电脑上访问不了文件
+这以book.svipking.top为例：
+【http://book.svipking.top/0.1/?ml=awa&wj=index】相当于访问book.svipking.top/0.1下的awa目录中的index.md
+【http://book.svipking.top/0.1/?wj=index】相当于访问book.svipking.top/0.1下的的index.md
+【http://book.svipking.top/0.1/?wj=iadwawwdw】
 
-#### 软件架构
-软件架构说明
-
-
-#### 安装教程
-
-1.  xxxx
-2.  xxxx
-3.  xxxx
-
-#### 使用说明
-
-1.  xxxx
-2.  xxxx
-3.  xxxx
-
-#### 参与贡献
-
-1.  Fork 本仓库
-2.  新建 Feat_xxx 分支
-3.  提交代码
-4.  新建 Pull Request
-
-
-#### 特技
-
-1.  使用 Readme\_XXX.md 来支持不同的语言，例如 Readme\_en.md, Readme\_zh.md
-2.  Gitee 官方博客 [blog.gitee.com](https://blog.gitee.com)
-3.  你可以 [https://gitee.com/explore](https://gitee.com/explore) 这个地址来了解 Gitee 上的优秀开源项目
-4.  [GVP](https://gitee.com/gvp) 全称是 Gitee 最有价值开源项目，是综合评定出的优秀开源项目
-5.  Gitee 官方提供的使用手册 [https://gitee.com/help](https://gitee.com/help)
-6.  Gitee 封面人物是一档用来展示 Gitee 会员风采的栏目 [https://gitee.com/gitee-stars/](https://gitee.com/gitee-stars/)
+等等哈，我正在写，
